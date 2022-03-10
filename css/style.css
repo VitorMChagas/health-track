@@ -1,0 +1,115 @@
+#logo {
+  width: 100px;
+}
+
+body {
+  background: rgb(177,0,85);
+  background: linear-gradient(0deg, rgba(177,0,85,1) 0%, rgba(177,0,85,1) 0%, rgba(250,0,120,1) 100%);
+}
+
+:is(h1, h2, p, label) {
+  color: #fff;
+  font-family: 'Rowdies', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: -120px;
+}
+
+a {
+  position: fixed;
+  bottom: 0;
+}
+
+label {
+  padding-right: 10px;
+}
+
+input {
+  width: 60px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  background-color: var(--bs-dark);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=checkbox] {
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  background-color: var(--bs-dark);
+}
+
+button.btn {
+  width: 100vw;
+  height: 80px;
+  background-color: #000;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  
+  border: none;
+  border-radius: 0;
+}
+
+button.btn:active, 
+button.btn:focus,
+button.btn:hover {
+  background-color: var(--bs-dark);
+  outline: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.weight-data {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-box div {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.input-box input:last-child {
+  margin-left: -5px;
+}
